@@ -79,7 +79,11 @@ modules.order
 #
 # Debian directory (make deb-pkg)
 #
-/debian/
+#/debian/
+/debian/hdrtmp/
+/debian/headertmp/
+/debian/tmp/
+/debian/files
 
 #
 # Snap directory (make snap-pkg)
